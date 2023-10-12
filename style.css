@@ -1,0 +1,61 @@
+:root{
+    --pink: #f14e95;
+    --bg: #0a0a0a;
+}
+
+
+h1{
+    text-align: center;
+    color: #f14e95;
+    font-family: sacramento;
+    font-size: xx-large;
+}
+
+.root{
+    background: var(--bg);
+    padding: auto;
+}
+
+.button{
+    text-align: center;
+}
+#button{
+    background-color: saddlebrown;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 12px;
+}
+#button:hover{
+    background-color: aquamarine;
+    color: black;
+}
+/* .card .card-body{
+<marquee behavior="scroll" direction="up" id="marquee">
+    </marquee>
+} */
+
+.card {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+body{
+    background-image: url(img/IMG-20230616-WA0004.jpg), url(img/IMG-20230616-WA0004.jpg);
+
+}
+
+
+
